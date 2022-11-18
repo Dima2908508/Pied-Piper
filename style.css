@@ -1,0 +1,264 @@
+body {
+   margin: 0 auto;
+   box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5,h6 {
+  margin: 0; 
+}
+
+.container {
+   width: 100%; 
+   background-color: #007765;
+}
+
+.navbar {
+   width: 100%;
+   height: 84px;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-left: 55px;
+   padding-right: 55px;
+   max-width: 1219px; 
+}
+
+.logo {
+   Width: 183.96px;
+   Height: 45.04px;
+   background-size: cover
+}
+
+.menu_nav {
+   display: flex;
+   margin: 0 auto;
+}
+
+li {
+   text-decoration:none;
+   list-style-type: none;
+   padding-top: 28px;
+   padding-right: 8px;
+   padding-bottom: 27px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 28px;
+   text-align: center;
+   color: #FFFFFF;
+}
+
+
+.section_one-container {
+   width: 100%;
+   background: url(./logo/back_con1.png);
+   background-repeat: no-repeat ;
+   background-size: cover;
+   height: 403px;
+   justify-content: center;
+   display: flex;
+   align-items: center  
+}
+
+.main_title {
+   font-style: normal;
+   font-size: 75px;
+   line-height: 84px;
+   color: #FFFFFF;
+}
+
+.section_problem {
+   width: 100%;
+   padding: 50px 0 90px;   
+   background: #EEEEEE;
+
+}
+
+.section_2 {
+   max-width: 1219px;
+   margin: 0 auto;
+   padding: 0 55px;
+}
+
+.titles {
+   font-style: normal;
+   font-weight: 500;
+   font-size: 64px;
+   line-height: 75px;
+   text-align: center;
+   color: #007765;
+}
+
+.problem_container {
+   padding-top: 48px;
+}
+
+p {
+   margin-bottom: 40px;
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 38px;
+   color: #000000;
+}
+
+.problev_text {
+   padding-bottom: 25px;
+}
+
+.hero {
+   height: 483px;
+   margin: 0 auto;
+   padding: 0 55px;
+   background: url(./logo/hero.png);
+   background-repeat: no-repeat ;
+   background-size: cover;
+   justify-content: center;
+   display: flex;
+   align-items: center  
+}
+
+.message {
+   width: 1219px; /*Устанавливает ширину содержимого элемента*/
+   font-style: italic; /*Определяет начертание шрифта — обычное, курсивное или наклонное*/
+   font-weight: 500; /*Устанавливает насыщенность шрифта*/
+   font-size: 48px; /*Определяет размер шрифта элемента*/
+   line-height: 56px; /*Задаёт высоту строки текста*/
+   text-align: center; /*Определяет горизонтальное выравнивание текста в пределах элемента*/
+   color: #fff; /*Определяет цвет текста элемента*/
+}
+
+.ppc {
+   width: 100%;
+}
+
+.ppc_container {
+   max-width: 1219px;
+   margin: 0 auto;
+   padding: 50px 0 55px;
+}
+
+.message_ppc {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 64px;
+   line-height: 75px;
+   text-align: center;
+   color: #007765;
+   padding-bottom: 16px;
+}
+
+.logo_ppc {
+   display: flex;
+   margin: 0;
+}
+
+.ppc_logo {
+   padding-top: 0px;
+   padding-right: 45px;
+   padding-bottom: 35px;
+}
+
+.logo_message {
+   margin: 0;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 38px;
+   color: #000000;
+}
+
+.ppc_text {
+   margin: 0;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 32px;
+   line-height: 38px;
+   color: #000000;
+}
+
+.section_team {
+   width: 100%;
+   background: #EEEEEE;
+
+}
+
+.team_container {
+   max-width: 1219px;
+   margin: 0 auto;
+   padding: 50px 0 55px;
+}
+
+.team_name {
+   padding-bottom: 32px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 64px;
+   line-height: 75px;
+   text-align: center;
+   color: #007765;
+}
+
+.cards {
+   margin: 0;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.img_team {
+   padding: 32px 0px 84px;
+   text-align: center;
+}
+
+.img_foto {
+   width: 168px;
+   height: 168px;
+}
+
+.team_p {
+   margin: 0;
+   font-size: 24px;
+   line-height: 28px;
+   color: #007765;
+   width: 350px;
+}
+
+.figcaption {
+   margin: 0;
+   font-family: 'Roboto';
+   font-style: italic;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   color: #000000;
+}
+
+.footer {
+   width: 100%;
+   background: #333333;
+}
+
+.footer_container {
+   max-width: 1219px;
+   margin: 0 auto;
+   padding: 50px 0 55px;
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   text-align: center;
+}
+
+.footer_p {
+   margin: 0;
+   color:
+   #FFFFFF;
+}
